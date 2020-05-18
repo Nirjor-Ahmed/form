@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        a {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <div style="background-color: black; height: 500px;">
+
+        <!--First section-->
+        <div style="background-color: #3B5998; height: 90px; width: 50%; float: left;">
+            <h1 style="font-family: sans-serif; font-size: 45px; color: white; margin-left: 180px;">facebook</h1>
+        </div>
+        <div style="background-color: #3B5998; height: 90px; width: 50%; float: left;">
+            <div style="font-family: sans-serif; font-size: 13px; color: white; margin: 15px 0 0 110px; float: left">Email or phone
+                <br>
+                <input type="email" name="email" style="width: 85%; height: 18px; border-color: black; border-width: thin; margin-top: 3px;"> </div>
+
+            <div style="font-family: sans-serif; font-size: 13px; color: white; margin: 15px 0 0 0; float: left">Password
+                <br>
+                <input type="password" name="password" style="width: 85%; height: 18px; border-color: black; border-width: thin; margin-top: 3px;">
+                <br>
+                <br>
+                <a href="#" style="text-decoration: none; color: #8F94AE">
+                    <u>Forgotten account?</u>
+                </a>
+            </div>
+
+            <div style="margin: 33px 0 0 0; float: left">
+                <button type="button" style=" background-color: #365899; color: white; font-family: sans-serif; font-size: 10px; height: 20px; width: 50px; ">
+                    <strong>login</strong>
+                </button>
+            </div>
+
+        </div>
+
+        <!--2nd section-->
+
+        <div style="background-color: #EBEDF4; height: 600px; width: 50%; float: left; ">
+            <p style="font-family: sans-serif; font-size: 20px; color: #0E385F; padding-top: 30px; padding-left: 200px">
+                <strong>Facebook helps you connect and share with the people in your life.</strong>
+                <br>
+                <!-- Facebook image-->
+                <img src="picture/facebook.png" alt="facebook">
+            </p>
+        </div>
+        <div style="background-color: #EBEDF4; color: #333333; font-family: sans-serif; height: 600px; width: 50%; float: left;">
+            <h2 style="font-size: 35px; margin-left: 70px">Create an account</h2>
+            <p style="font-size: 20px; margin-left: 70px">It's quick and easy.</p>
+            <input type="text" name="firstname" placeholder="First name" required style="margin-left: 70px; width: 29%; height: 35px; border-color: #999999; border-width: thin; border-radius: 5px; font-size: 18px; padding-left: 10px;">
+            <input type="text" name="surstname" placeholder="Surname" required style="margin-left: 10px; width: 29%; height: 35px; border-color: #999999; border-width: thin; border-radius: 5px; font-size: 18px; padding-left: 10px;">
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="Mobile number or email address" required style="margin-left: 70px; width: 62%; height: 35px; border-color: #999999; border-width: thin; border-radius: 5px; font-size: 18px; padding-left: 10px;">
+            <br>
+            <br>
+            <input type="email" name="password" placeholder="New password" required style="margin-left: 70px; width: 62%; height: 35px; border-color: #999999; border-width: thin; border-radius: 5px; font-size: 18px; padding-left: 10px;">
+            <br>
+            <br>
+            <strong style="color: #999999; margin-left: 70px;">Birthday</strong>
+            <br>
+            <!-- Date section-->
+            <select name="date" style="margin-left: 70px; width: 8%; height: 25px;">
+                <option value="">31</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+            </select>
+            <!-- Month section-->
+            <select name="month" style="height: 25px;">
+                <option value="">DEC</option>
+                <option value="">JAN</option>
+                <option value="">FEB</option>
+                <option value="">MAR</option>
+                <option value="">APR</option>
+                <option value="">MAY</option>
+                <option value="">JUN</option>
+                <option value="">JUL</option>
+                <option value="">AUG</option>
+                <option value="">SEP</option>
+                <option value="">OCT</option>
+                <option value="">NOV</option>
+            </select>
+            <!-- Year section-->
+            <select name="year" style="height: 25px;">
+                <option value="">1950</option>
+                <option value="">1960</option>
+                <option value="">1970</option>
+                <option value="">1980</option>
+                <option value="">1990</option>
+                <option value="">2000</option>
+                <option value="">2010</option>
+                <option value="">2020</option>
+                <option value="">2030</option>
+                <option value="">2040</option>
+                <option value="">2050</option>
+            </select>
+            <br>
+            <br>
+            <!--Radio Button-->
+            <strong style="color: #999999; margin-left: 70px;">Gender</strong>
+            <br>
+            <input type="radio" name="gender" style="margin-left: 70px;">
+            <label for="" style="font-family: sans-serif; font-size: 18px;">Female</label>
+            <input type="radio" name="gender">
+            <label for="" style="font-family: sans-serif; font-size: 18px;">Male</label>
+            <input type="radio" name="gender">
+            <label for="" style="font-family: sans-serif; font-size: 18px;">Custom</label>
+            <br>
+            <br>
+            <!-- last section-->
+            <pre style="color: #999999; margin-left: 30px; font-family: sans-serif; font-size: 12px;">
+            By clicking Sign Up, you agree to our <a href="#" style="text-decoration: none;">Terms, Data Policy</a> and 
+            <a href="#" style="text-decoration: none;">Cookie Policy</a>. You may receive SMS notifications from us and 
+            can opt out at any time.</pre>
+            <br>
+            <button type="button" style=" background-color: #69A455; color: white; font-family: sans-serif; font-size: 18px; margin-left: 70px; border: none; height: 40px; width: 30%; border-radius: 3px;">
+                <a href="#" style="text-decoration: none; color: white;">
+                    <strong>Sign Up</strong>
+                </a>
+            </button>
+            <p style="margin-left: 70px; font-family: sans-serif; font-size: 14px;">
+                <a href="#" style="text-decoration: none;">Create a Page</a>
+                for a celebrity, band or business.</p>
+        </div>
+    </div>
+</body>
+
+</html>
